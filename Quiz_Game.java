@@ -97,5 +97,7 @@ public class Quiz_Game {
         System.out.println("=========================\n");
 
         System.out.println("Your Score: " + score + "/" + numberOfQuestions+ " (" + ((float)score/numberOfQuestions)*100 + ")%");
+
+        scanner.close();
     }
 }
